@@ -12,7 +12,7 @@ Estrutura, na ordem em que as coisas acontecem:
     3. FERRAMENTAS    — o que ele consegue FAZER além de falar
     4. O LOOP         — o coração do agente
     5. O TERMINAL     — a interface mais simples possível
-
+Test
 Rode com:  python agent.py
 """
 
