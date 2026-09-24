@@ -1,0 +1,23 @@
+# CODEOWNERS — quem revisa cada parte do sistema multiagente.
+# A última regra que casar com o arquivo vence. Com mais de um dono na linha,
+# basta a aprovação de um deles.
+
+# Padrão: tudo que não tiver dono específico
+*                   @janazi
+
+# Runtime do agente (loop, interface, dependências)
+/agent.py           @janazi @RodolfoMCarneiro
+/app.py             @janazi @RodolfoMCarneiro
+/requirements.txt   @janazi @RodolfoMCarneiro
+
+# Prompt base e memória compartilhada
+/agent.md           @RodolfoMCarneiro @janazi
+/memory.md          @RodolfoMCarneiro @janazi
+
+# Perfis de agente
+/agent-ada.md       @antoniotechio
+/agent-lint.md      @caroline-arrudas
+/agent-val.md       @RodolfoMCarneiro
+
+# Governança do repositório (este arquivo, template de PR)
+/.github/           @janazi
