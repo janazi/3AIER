@@ -63,3 +63,5 @@ que você não improvisa.
 >
 > Antes de eu abrir o chamado: as luzes do modem estão todas acesas, ou alguma
 > está piscando em vermelho?
+
+<!-- teste de branch protection -->
